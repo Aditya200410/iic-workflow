@@ -1,0 +1,85 @@
+.container{
+    background-color: #021e30;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.main{
+    background: transparent; 
+    border-radius: 40px;
+
+    box-shadow: 0 4px 8px 0 rgba(252, 250, 250, 0.2), 0 6px 20px 0 rgba(224, 218, 218, 0.19);
+}
+.Signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(800/1920 * 100vw);
+    height: calc(700/1080 * 100vh);
+    margin-bottom: 10px;
+
+}
+.inputs{
+    margin-left: 9%;
+    margin-top: 2%;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-right: 9%;
+    height: 40px; 
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+    border: 2px solid rgb(75, 75, 75);
+    padding: 10px;
+}
+.in{
+    margin-left: 9%;
+    margin-top: 2%;
+    background-color: transparent;
+    margin-right: 9%;
+    font-size: large;
+    padding: 10px;  
+}
+.s{
+    font-size: 50px;
+    margin-left: 9%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.btn{
+    margin-left: 9%;
+    margin-top: 5%;
+    background-color: transparent;
+    margin-right: 9%;
+    font-size: large;
+    padding: 10px;  
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.l{
+    margin-left: 50%;
+    margin-top: 2%;
+    background-color: transparent;
+    margin-right: 9%;
+    font-size: small;
+    padding: 10px;  
+    cursor: pointer;
+    color: grey;
+}
+
+@media only screen and (max-width: 768px) {
+    .Signup{
+        
+        width: calc(800/1920 * 100vw);
+        height: calc(700/1080 * 100vh);
+        margin-bottom: 10px;
+    
+    }
+}
